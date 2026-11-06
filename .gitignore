@@ -10,6 +10,9 @@ vectorstore/
 .cache/
 
 .env
+.env.*
+!.env.example
+.streamlit/secrets.toml
 
 *.bin
 *.pkl

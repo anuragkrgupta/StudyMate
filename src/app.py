@@ -3,6 +3,12 @@ import hashlib
 import streamlit as st
 from langchain_groq import ChatGroq
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # Load from Streamlit secrets first, then fall back to environment variables
 api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
 model = st.secrets.get(

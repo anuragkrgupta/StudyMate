@@ -172,8 +172,6 @@ rag-chatbot/
 
 ## 👩‍💻 Author
 
-**Hibza Kudari**
-
-AI & Machine Learning Student
+**Anurag Kumar**
 
 Passionate about Generative AI, RAG Systems, LLM Applications, and Intelligent Document Processing.
